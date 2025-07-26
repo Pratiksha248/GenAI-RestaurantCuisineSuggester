@@ -1,2 +1,2 @@
-# GenAI-RestaurantCuisineSuggester
+# GenAI-RestaurantCuisineNameSuggester
 This is a Generative AI Project that gives suggestions for fancy cuisine names based on fancy ethnic restaurants names. 
