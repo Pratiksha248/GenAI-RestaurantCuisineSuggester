@@ -18,7 +18,7 @@ prompt = PromptTemplate.from_template("I want to open an Indian restrobar, sugge
 chain = prompt | llm
 
 # Run the chain
-response = chain.invoke({"cuisine": "Chinese"})
+response = chain.invoke({"restro":"Italian", "cuisine":"Chinese"})
 
 # Print the result
 print(response.content)
