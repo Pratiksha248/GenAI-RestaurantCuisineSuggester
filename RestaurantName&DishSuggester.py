@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[23]:
-
+# In[1]:
 
 import google.generativeai as genai
 
@@ -14,8 +13,7 @@ for model in models:
     print(model.name)
 
 
-# In[12]:
-
+# In[2]:
 
 import os
 os.environ['GOOGLE_API_KEY'] = 'your-google-ai-api-key'
@@ -37,8 +35,7 @@ response = chain.invoke({"restro":"Arabic", "cuisine":"Chinese"})
 print(response.content)
 
 
-# In[5]:
-
+# In[3]:
 
 import os
 os.environ['GOOGLE_API_KEY'] = 'your-google-ai-api-key'
@@ -97,10 +94,3 @@ result = full_chain.invoke(input_data)
 # Output
 print("Restaurant name: ", result["restro_name"])
 print("\nDiet-based dishes: \n", result["dishes"])
-
-
-# In[ ]:
-
-
-
-
