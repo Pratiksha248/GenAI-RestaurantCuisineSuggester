@@ -1,1 +1,1 @@
-google_ai_api_key = "AIzaSyAoUojATkvvHVhvjjhSxd2YeCKJYuDd2Uc"
+google_ai_api_key = "your-google-ai-api-key"
